@@ -6,7 +6,7 @@
 /*   By: pragolan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/02 15:12:51 by pragolan          #+#    #+#             */
-/*   Updated: 2018/08/09 11:23:53 by pragolan         ###   ########.fr       */
+/*   Updated: 2018/08/10 14:18:13 by pragolan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,6 @@ typedef struct		s_filler
 int					ft_squareroot(int num);
 void				ft_initialize_variables(t_filler **node1);
 void				ft_users_pieces(t_filler *node, char *user);
-void				print_grid(char **grid);
 int					ft_check_overlap(t_filler *node, int j, int i);
 int					ft_try_place(t_filler *node);
 char				**ft_get_map(int fd, t_filler *node, char *line);
